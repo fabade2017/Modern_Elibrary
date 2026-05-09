@@ -1,0 +1,233 @@
+[
+  {
+    "id": "0018ffa0-806e-11f0-9283-0200fd8286c7",
+    "name": "Rodiat Ajayi",
+    "email": "fareshare200@gmail.com",
+    "role": "student",
+    "institution_id": "cd073daf-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "7",
+    "bio": null,
+    "username": "Rodii",
+    "phone": null
+  },
+  {
+    "id": "13323cc6-79d6-11f0-9283-0200fd8286c7",
+    "name": "olufemi  Emmanuel",
+    "email": "fawosanya@brandsoftsystems.com.ng",
+    "role": "lecturer",
+    "institution_id": "cd1f16ee-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "6",
+    "bio": "Good jnjnciasjcpojvpoewpoejpworjvbpoerjbvpoerjbvpoerjvor",
+    "username": "profemi",
+    "phone": "08052630981"
+  },
+  {
+    "id": "18ca2ff2-6ca8-11f0-83de-0200fd8286c7",
+    "name": "string",
+    "email": "fabade2017@gmail.com",
+    "role": "lecturer",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": "1",
+    "bio": null,
+    "username": "deedstring",
+    "phone": null
+  },
+  {
+    "id": "3aada926-7c55-11f0-9283-0200fd8286c7",
+    "name": "Lawal Bello",
+    "email": "bellopaulina50@gmail.com",
+    "role": "lecturer",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": "1",
+    "bio": null,
+    "username": "JohnDoe",
+    "phone": null
+  },
+  {
+    "id": "3d193603-3cd4-11f0-89ff-0200fd8286c7",
+    "name": "Felix Bello",
+    "email": "dev.felixbello@gmail.com",
+    "role": "student",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": "7",
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "437da0cc-3a45-11f0-89ff-0200fd8286c7",
+    "name": "OYETAYO OYEBISI",
+    "email": "oyebisioyetayofrancis@gmail.com",
+    "role": "student",
+    "institution_id": "cd072d6b-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "5",
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "4615742c-705f-11f0-83de-0200fd8286c7",
+    "name": "Ibijoke Awosanya",
+    "email": "aibijoke@brandsoftsystems.com.ng",
+    "role": "student",
+    "institution_id": "cd074a4b-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "8",
+    "bio": "AM easy going person and I love music ",
+    "username": "Ibijoke",
+    "phone": "08054748628"
+  },
+  {
+    "id": "4de40670-8194-11f0-9283-0200fd8286c7",
+    "name": "tunde",
+    "email": "tunde@example.com",
+    "role": "student",
+    "institution_id": "cd0a8aa5-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "5",
+    "bio": null,
+    "username": "stringt",
+    "phone": null
+  },
+  {
+    "id": "56484121-5208-11f0-8731-0200fd8286c7",
+    "name": "Shizzy",
+    "email": "habeebajayi55@gmail.com",
+    "role": "student",
+    "institution_id": "cd073d81-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "8",
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "6cb6e879-2984-11f0-8a1e-0200fd8286c7",
+    "name": "Awosanya Olufemi",
+    "email": "femiawosanya1@gmail.com",
+    "role": "student",
+    "institution_id": "cd073daf-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "1",
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "7d0ebf5c-8195-11f0-9283-0200fd8286c7",
+    "name": "tunde",
+    "email": "adediwurafabiyi@gmail.com",
+    "role": "student",
+    "institution_id": "cd0a8aa5-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "5",
+    "bio": null,
+    "username": "adediwura009",
+    "phone": null
+  },
+  {
+    "id": "8a8dd560-2725-11f0-8a1e-0200fd8286c7",
+    "name": "Habeeb Oladipupo",
+    "email": "habeebajayi3@gmail.com",
+    "role": "student",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": "1",
+    "bio": "I love myself so much i think of myself every waking moment.",
+    "username": null,
+    "phone": "09045579254"
+  },
+  {
+    "id": "974079c9-2801-11f0-8a1e-0200fd8286c7",
+    "name": "Adeowale Bello",
+    "email": "belloadebowale10@gmail.com",
+    "role": "student",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": null,
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "9f408b89-7067-11f0-83de-0200fd8286c7",
+    "name": "Veronica Damilola Awosanya ",
+    "email": "damilola_awosanya@yahoo.com",
+    "role": "student",
+    "institution_id": "cd0816e3-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "22",
+    "bio": null,
+    "username": "Veronica ",
+    "phone": null
+  },
+  {
+    "id": "a3e7ef60-ef85-11ef-b07d-0200fd8286c7",
+    "name": "Mr Hilary",
+    "email": "abdulfataibabajide255@gmail.com",
+    "role": "student",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": null,
+    "bio": "Reach me anytime\r\n",
+    "username": null,
+    "phone": "0704863852"
+  },
+  {
+    "id": "b2892cc4-297e-11f0-8a1e-0200fd8286c7",
+    "name": "AdeSimon",
+    "email": "adeolu.emmanuel80@gmail.com",
+    "role": "lecturer",
+    "institution_id": "cd073e18-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "2",
+    "bio": "nolollypo in the mist of it.   nnmmn",
+    "username": "Adeton",
+    "phone": "08154645344"
+  },
+  {
+    "id": "bf496059-79dc-11f0-9283-0200fd8286c7",
+    "name": "AJAYI ISLAMIYYAH OLABISI",
+    "email": "habeebajay55@gmail.com",
+    "role": "student",
+    "institution_id": "cd0743fe-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "22",
+    "bio": null,
+    "username": "Miyarh",
+    "phone": null
+  },
+  {
+    "id": "c09e037b-6c51-11f0-83de-0200fd8286c7",
+    "name": "Friday",
+    "email": "adeolu.emmanuel801@gmail.com",
+    "role": "student",
+    "institution_id": "cd073d0a-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "5",
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "c4914c13-6bd5-11f0-83de-0200fd8286c7",
+    "name": "Atinuke",
+    "email": "fabade2013@gmail.com",
+    "role": "student",
+    "institution_id": "a3b1805b-e48f-11ef-9139-38b1dbe4a08e",
+    "department_id": "1",
+    "bio": null,
+    "username": null,
+    "phone": null
+  },
+  {
+    "id": "c4cfa45f-79dd-11f0-9283-0200fd8286c7",
+    "name": "AJAYI ISLAMIYYAH OLABISI",
+    "email": "sinzuum@gmail.com",
+    "role": "student",
+    "institution_id": "cd074e0f-03fc-11f0-b8a2-0200fd8286c7",
+    "department_id": "5",
+    "bio": null,
+    "username": "Miyarh200",
+    "phone": null
+  },
+  {
+    "id": "eec89716-2658-11f0-8a1e-0200fd8286c7",
+    "name": "Hilarious Jhyde",
+    "email": "jhydehilarious@gmail.com",
+    "role": "lecturer",
+    "institution_id": "b1d555f8-e494-11ef-9139-38b1dbe4a08e",
+    "department_id": "1",
+    "bio": "Just a nice guy you will know ",
+    "username": null,
+    "phone": "0704863852"
+  }
+]
