@@ -56,7 +56,7 @@ jobs:
         php-version: '8.3'
         extensions: mbstring, pdo_sqlite
     - name: Create .env file
-      run: |
+      run: | 
         cat > .env << EOF
         APP_NAME="Modern Elibrary"
         APP_ENV=testing
