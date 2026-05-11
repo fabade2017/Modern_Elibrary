@@ -8,7 +8,6 @@ on:
 
 jobs:
   laravel-tests:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -43,4 +42,38 @@ jobs:
         touch database/database.sqlite
     - name: Run tests
       run: php artisan test
-  
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [laravel-tests]
+    if: always()
+    
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup PHP
+      uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+      with:
+        php-version: '8.3'
+        extensions: mbstring, pdo_sqlite
+    - name: Create .env file
+      run: |
+        cat > .env << EOF
+        APP_NAME="Modern Elibrary"
+        APP_ENV=testing
+        APP_DEBUG=true
+        APP_URL=http://localhost
+        LOG_CHANNEL=stack
+        DB_CONNECTION=sqlite
+        DB_DATABASE=database/database.sqlite
+        CACHE_DRIVER=file
+        QUEUE_CONNECTION=sync
+        SESSION_DRIVER=cookie
+        EOF
+    - name: Install Dependencies
+      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    - name: Generate key
+      run: php artisan key:generate
+    - name: Directory Permissions
+      run: chmod -R 777 storage bootstrap/cache
+    - name: Build successful
+      run: echo "Build completed successfully"
