@@ -17,8 +17,20 @@ jobs:
         php-version: '8.3'
         extensions: mbstring, pdo_sqlite
     - uses: actions/checkout@v4
-    - name: Copy .env
-      run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+    - name: Create .env file
+      run: |
+        cat > .env << EOF
+        APP_NAME="Modern Elibrary"
+        APP_ENV=testing
+        APP_DEBUG=true
+        APP_URL=http://localhost
+        LOG_CHANNEL=stack
+        DB_CONNECTION=sqlite
+        DB_DATABASE=database/database.sqlite
+        CACHE_DRIVER=file
+        QUEUE_CONNECTION=sync
+        SESSION_DRIVER=cookie
+        EOF
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: Generate key
